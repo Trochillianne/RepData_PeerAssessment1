@@ -1,5 +1,15 @@
 # RepData_Peer Assesment 1
 
+## Usage
+
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
+
 ### Required packages
 
 ```{r library, message=FALSE, warning=FALSE}
