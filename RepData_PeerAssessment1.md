@@ -2,7 +2,7 @@
 
 ### Required packages
 
-```{r library, message=FALSE, warning=FALSE}
+```
 library("ggplot2")
 library("dplyr")
 library("lattice")
