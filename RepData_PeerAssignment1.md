@@ -4,13 +4,13 @@ author: "Victoria Mestre Runge"
 date: "17 agost de 2020"
 ---
 
-```{r setup, include=FALSE}
+```rubi
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ### Required packages
 
-```{r library, message=FALSE, warning=FALSE}
+```rubi
 library("ggplot2")
 library("dplyr")
 library("lattice")
@@ -20,7 +20,7 @@ library("plyr")
 ### Loading and pre-processing the data
 ###### *Data examination can be made with summary(), str(), dim(), columns(), head(), tail(), dput() and View().*
 
-```{r original data frame}
+```rubi
 setwd("C:/Users/victo/Desktop/COURSERA/2020 Data Science Specialization/05. Reproducible Research/Course Project 1")
 unzip("activity.zip")
 # Loading data
