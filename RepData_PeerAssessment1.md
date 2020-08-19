@@ -3,10 +3,10 @@
 ### Required packages
 
 ```
-library(ggplot2')
-library(dplyr)
-library(lattice)
-library(plyr)
+library("ggplot2") # test
+library("dplyr")
+library("lattice")
+library("plyr")
 ```
 
 ### Loading and pre-processing the data
