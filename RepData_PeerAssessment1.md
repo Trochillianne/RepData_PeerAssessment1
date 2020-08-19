@@ -3,7 +3,7 @@
 ### Required packages
 
 ```
-library("ggplot2") # test
+library("ggplot2")
 library("dplyr")
 library("lattice")
 library("plyr")
