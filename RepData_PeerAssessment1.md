@@ -71,10 +71,9 @@ ggplot(agg_ByTime, aes(interval, mean_steps)) +
         xlab("Intervals") + ylab("Average Number of Steps") + 
         theme(plot.title = element_text(face="bold", size = 11, hjust = 0.5)) +
         scale_x_continuous(breaks=seq(from=0, to=2400, by=500)) + # Adjusting the scale
-        scale_y_continuous(breaks=seq(from=0, to=250, by=50)) 
-        
-        
+        scale_y_continuous(breaks=seq(from=0, to=250, by=50))    
 ```
+![alt text](https://github.com/Trochillianne/RepData_PeerAssessment1/blob/master/Figures/Plot2.png)
 
 #### **2.** Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 ```{r max val, echo=TRUE}
@@ -138,6 +137,8 @@ ggplot(agg_ByDate_imputed, aes(total_imputed, fill=..count.., col=..count..)) +
         scale_x_continuous(breaks=seq(from=0, to=25000, by=5000)) + # Adjusting the scale of the histogram
         scale_y_continuous(breaks=seq(from=0, to=40, by=6)) 
 ```
+![alt text](https://github.com/Trochillianne/RepData_PeerAssessment1/blob/master/Figures/Plot3.png)
+
 ```{r mean and median total_imputed, echo=TRUE}
 summary(agg_ByDate_imputed$total_imputed)
 ```
@@ -165,3 +166,4 @@ xyplot(mean~interval|day_category, data = agg_ByInterval, type = "l", layout=c(1
        main="Average Steps per Interval Based on Type of Day category", 
        ylab="Average Number of Steps", xlab="Interval")
 ```
+![alt text](https://github.com/Trochillianne/RepData_PeerAssessment1/blob/master/Figures/Plot4.png)
