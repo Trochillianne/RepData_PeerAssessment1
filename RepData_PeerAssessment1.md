@@ -1,18 +1,8 @@
 # RepData_Peer Assesment 1
 
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
 ### Required packages
 
-```{r library, message=FALSE, warning=FALSE}
+```
 library("ggplot2")
 library("dplyr")
 library("lattice")
@@ -22,7 +12,7 @@ library("plyr")
 ### Loading and pre-processing the data
 ###### *Data examination can be made with summary(), str(), dim(), columns(), head(), tail(), dput() and View().*
 
-```{r original data frame}
+```
 unzip("activity.zip")
 # Loading data
 originalDF <- read.csv("activity.csv", sep = ",", header=TRUE)
