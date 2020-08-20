@@ -131,7 +131,7 @@ ggplot(agg_ByTime, aes(interval, mean_steps)) +
         scale_y_continuous(breaks=seq(from=0, to=250, by=50)) 
 ```
 
-![](Figs/average%20daily%20activity-1.png)
+![](https://github.com/Trochillianne/RepData_PeerAssessment1/blob/master/Figures/Plot2.png)
 
 #### **2.** Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -259,7 +259,7 @@ ggplot(agg_ByDate_imputed, aes(total_imputed, fill=..count.., col=..count..)) +
         scale_y_continuous(breaks=seq(from=0, to=40, by=6)) 
 ```
 
-![](Figs/plot%20total%20imputed_steps-1.png)
+![](https://github.com/Trochillianne/RepData_PeerAssessment1/blob/master/Figures/Plot3.png)
 
 ``` r
 summary(agg_ByDate_imputed$total_imputed)
@@ -331,4 +331,4 @@ xyplot(mean~interval|day_category, data = agg_ByInterval, type = "l", layout=c(1
        ylab="Average Number of Steps", xlab="Interval")
 ```
 
-![](Figs/weekday%20and%20weekend-1.png)
+![](https://github.com/Trochillianne/RepData_PeerAssessment1/blob/master/Figures/Plot4.png)
