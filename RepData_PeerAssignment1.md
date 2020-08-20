@@ -87,7 +87,7 @@ ggplot(agg_ByDate, aes(total_steps, fill=..count.., col=..count..)) +
         scale_y_continuous(breaks=seq(from=0, to=28, by=4)) 
 ```
 
-![](Figs/plot%20total%20steps%20per%20day-1.png)
+![](https://github.com/Trochillianne/RepData_PeerAssessment1/blob/master/Figures/Plot1.png)
 
 #### **3.** Calculate and report the mean and median of the total number of steps taken per day:
 
